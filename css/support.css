@@ -10,6 +10,7 @@ body{font-family: 'Helvetica Neue', 'Helvetica', 'Lucida Grande', sans-serif;}
 .intro ol{margin-left:25px;}
 .intro ol li{list-style:decimal;}
 .intro a{text-decoration: underline;}
+.intro p{cursor: pointer;}
 
 .itempro{width:210px;margin-left:2px;text-align: center;}
 .itempro p,.itempro img{cursor: pointer;}

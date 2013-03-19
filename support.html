@@ -82,11 +82,13 @@
             </div>
             <div id="myswing">
                 <h4>Download: </h4>
-                <p>mySwing™ Poster(<a href="download/introduct.pdf">CN</a>)</p>
-                <p>mySwing™ iOSVersion Manual (<a href="download/mySwing iOS instruction manual_A.pdf.pdf">EN</a>/<a href="download/mySwing iOS instruction manual-A5 cn_A.pdf">CN</a>)</p>
-                <p>mySwing™ Basic Version Manual(<a href="download/mySwing Basic instruction manual_A.pdf">EN</a>)</p>
-                <p>mySwing™ iOS app can be downloaded at<br>
-                    <a href="https://itunes.apple.com/app/id560946532?mt=8"><img src="images/support.jpg" ></a>
+                <p>
+                    <img src="images/androiddown.png">
+                </p>
+                <p>Please download the free mySwingTM Android App <a href="http://www.noitom.com/download/myswing.apk" style="text-decoration: underline;">here</a></p>
+                <p>Please download the free mySwingTM iOS App <a href="https://itunes.apple.com/cn/app/myswing/id560946532?mt=8" style="text-decoration: underline;">here</a></p>
+                <p>
+                    <a href="https://itunes.apple.com/app/id560946532?mt=8"><img src="images/support.png" ></a>
                 </p>
                 <h4>Video:</h4>
                 <p>
@@ -184,8 +186,10 @@
                 <p>
                     A: 对大部分入门的球手，合理的上下挥杆节奏应该在3：1左右，亦即上挥杆和下挥杆的时间的比例为3：1。如果能稳定得保持3：1的节奏，下挥杆的时间越短越好。越短的下挥杆时间，会导致更更快的杆头速度。
                     注：很多好手的挥杆节奏能达到4：1甚至5：1，而且下挥杆时间能控制在0.25秒以内。
+                    <br>
+                    <img src="images/faq3-zn.png" >
                 </p>
-                <img src="images/faq3-zn.png" >
+
             </div>
             <div class="bt">
                 <p>
@@ -213,14 +217,16 @@
                 </p>
                 <p>
                     A: 杆身俯仰角：<br>
-                    击球时杆身与地面之间的夹角。杆身俯仰角对击球效果影响也很大，尤其是对中短铁杆。通常人们会说有三种杆身俯仰角：standard, flat, 和upright。 比如4号铁杆，假如其标准杆身俯仰角为61度，大于61度就为upright, 而小于61度即为flat。
+                    击球时杆身与地面之间的夹角。杆身俯仰角对击球效果影响也很大，尤其是对中短铁杆。通常人们会说有三种杆身俯仰角：standard, flat, 和upright。 比如4号铁杆，假如其标准杆身俯仰角为61度，大于61度就为upright, 而小于61度即为flat。<br>
+                    <img src="images/faq5-zn.jpg">
                 </p>
-                <img src="images/faq5-zn.jpg">
+
                 <p>
                     杆面仰角：<br>
                     击球时杆面朝向与地面之间的夹角。在击球的时候，杆面仰角越大，越容易把球打高。通常而言，一套杆里，越长的杆，其标准的杆面仰角会越低。
+                    <br> <img src="images/faq5-1-zn.jpg">
+
                 </p>
-                <img src="images/faq5-1-zn.jpg">
                 <p>
                     典型铁杆和木杆的杆面仰角和杆身俯仰角数值<br>
                     <img src="images/faq5-2-zn.png">
@@ -594,6 +600,38 @@
                 location.href="products.html";
             }
         })
+
+        var newslist = document.getElementById("news"),
+                qalist = domUtils.getElementsByTagName(newslist,"div");
+    for(var i= 0;i<qalist.length;i++){
+        var item = qalist[i];
+        hideChild(item)
+
+
+    }
+    function bindClick(){
+        var next = this.nextSibling;
+        while(next){
+            if(next.nodeType ==1){
+                next.style.display = next.style.display == "none"?"block":"none";
+            }
+            next = next.nextSibling;
+        }
+    }
+    function hideChild(item){
+        var first = item.childNodes,flag,tmp;
+        for(var i= 0;i<first.length;i++){
+            tmp = first[i];
+            if(tmp.nodeType==1){
+                if(/Q:/.test(tmp.innerHTML)){
+                    tmp.onclick = bindClick;
+                    continue;
+                }else{
+                    tmp.style.display = "none";
+                }
+            }
+        }
+    }
 
 </script>
 </body>
