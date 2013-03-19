@@ -1,0 +1,600 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="css/support.css" type="text/css"/>
+    <script type="text/javascript" src="js/domUtils.js"></script>
+    <script type="text/javascript" src="js/totop.js"></script>
+
+    <style type="text/css">
+        .back2Top {
+        display: none;
+        position: fixed;
+        _position: absolute;
+        bottom: 100px;
+        left: 50%;
+        width: 50px;
+        height: 50px;
+        margin-left: 550px;
+        cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+<div class="header">
+    <div class="header-container">
+        <div class="logo fl">
+            <a href="index.html"><img src="images/logo.gif"></a>
+        </div>
+        <div class="nav fl">
+            <ul>
+                <li>
+                    <a href="index.html">HOME</a>
+                </li>
+                <li>
+                    <a href="about.html">ABOUT</a>
+                </li>
+                <li>
+                    <a href="application.html">APPLICATIONS</a>
+                </li>
+                <li>
+                    <a href="products.html">PRODUCTS</a>
+                </li>
+                <li>
+                    <a href="support.html">SUPPORT</a>
+                </li>
+                <li>
+                    <a href="concat.html">CONTACT</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+<div class="content-wrap">
+    <div class="leftnav">
+        <ul id="leftnav">
+            <li class="page_item active" tabcont="intro"><a href="javascript:void(0)">Instruction & Tutorials</a></li>
+            <li class="page_item" tabcont="news"><a href="javascript:void(0)" style="text-transform: none">mySwing™ FAQ</a></li>
+        </ul>
+    </div>
+    <div class="rightcontent">
+        <div id="intro" class="intro">
+            <div class="itempro fl">
+                <img src="images/nocp-s.jpg"  onclick="show('nocp')">
+                <p onclick="show('nocp')">trueMotion™</p>
+            </div>
+            <div class="itempro fl">
+                <img src="images/myswing-s.jpg" onclick="show('myswing')">
+                <p onclick="show('myswing')">mySwing™</p>
+            </div>
+            <div class="itempro fl">
+                <img src="images/imu-s.png" onclick="show('imu')">
+                <p onclick="show('imu')">NTM-AHRS-800</p>
+            </div>
+            <div class="clear"></div>
+            <div id="nocp">
+                <h4>Video:</h4>
+                <p>
+                    trueMotion™ tutorial video
+                </p>
+                <embed type="application/x-shockwave-flash" class="edui-faked-video" pluginspage="http://www.macromedia.com/go/getflashplayer" src="http://www.youtube.com/v/KE3aM6M9rFI" width="420" height="280" align="none" wmode="transparent" play="true" loop="false" menu="false" allowscriptaccess="never" allowfullscreen="true" />
+            </div>
+            <div id="myswing">
+                <h4>Download: </h4>
+                <p>mySwing™ Poster(<a href="download/introduct.pdf">CN</a>)</p>
+                <p>mySwing™ iOSVersion Manual (<a href="download/mySwing iOS instruction manual_A.pdf.pdf">EN</a>/<a href="download/mySwing iOS instruction manual-A5 cn_A.pdf">CN</a>)</p>
+                <p>mySwing™ Basic Version Manual(<a href="download/mySwing Basic instruction manual_A.pdf">EN</a>)</p>
+                <p>mySwing™ iOS app can be downloaded at<br>
+                    <a href="https://itunes.apple.com/app/id560946532?mt=8"><img src="images/support.jpg" ></a>
+                </p>
+                <h4>Video:</h4>
+                <p>
+                    mySwing™ iOS tutorial video
+                </p>
+                <embed type="application/x-shockwave-flash" class="edui-faked-video" pluginspage="http://www.macromedia.com/go/getflashplayer" src="http://www.youtube.com/watch?v=8gn5UKTlqrQ" width="420" height="280" align="none" wmode="transparent" play="true" loop="false" menu="false" allowscriptaccess="never" allowfullscreen="true" />
+                <p>
+                    mySwing™   Mount & Align sensor video
+                </p>
+                <embed type="application/x-shockwave-flash" class="edui-faked-video" pluginspage="http://www.macromedia.com/go/getflashplayer" src="http://v.youku.com/v_show/id_XNTE0ODU0OTE2.html" width="420" height="280" align="none" wmode="transparent" play="true" loop="false" menu="false" allowscriptaccess="never" allowfullscreen="true" />
+                <p>
+                    mySwing™  Assemble strap video
+                </p>
+                <embed type="application/x-shockwave-flash" class="edui-faked-video" pluginspage="http://www.macromedia.com/go/getflashplayer" src="http://v.youku.com/v_show/id_XNDk2MDc5Mzcy.html" width="420" height="280" align="none" wmode="transparent" play="true" loop="false" menu="false" allowscriptaccess="never" allowfullscreen="true" />
+            </div>
+            <!--<h4>Download</h4>-->
+            <!--<p>mySwing™ Product Introduction(<a href="download/introduct.pdf">CN</a>)</p>-->
+            <!--<p>mySwing™ Instruction menual iOS (<a href="download/mySwing iOS instruction manual_A.pdf.pdf">EN</a>/<a href="download/mySwing iOS instruction manual-A5 cn_A.pdf">CN</a>)</p>-->
+            <!--<p>mySwing™ Instruction menual Basic(<a href="download/mySwing Basic instruction manual_A.pdf">EN</a>)</p>-->
+            <!--<p>iOS app download-->
+                <!--<a href="https://itunes.apple.com/app/id560946532?mt=8"><img src="images/myswing.jpg" width="200px"></a>-->
+            <!--</p>-->
+            <!--<p>-->
+                <!--mySwing™ vedio demo-->
+            <!--</p>-->
+            <!--<embed type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" src="http://player.youku.com/player.php/sid/XNDcyMjc3MzUy/v.swf" width="420" height="280" wmode="transparent" play="true" loop="false" menu="false" allowscriptaccess="never" allowfullscreen="true">-->
+            <!--<p>-->
+                <!--mySwing™ sensor attaching demo-->
+            <!--</p>-->
+            <!--<embed type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" src="http://player.youku.com/player.php/sid/XNDQ0MjI0NzMy/v.swf" width="420" height="280" wmode="transparent" play="true" loop="false" menu="false" allowscriptaccess="never" allowfullscreen="true">-->
+            <!--<p>-->
+                <!--mySwing™ Assemble strap demo-->
+            <!--</p>-->
+            <!--<embed type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" src="http://player.youku.com/player.php/sid/XNDk2MDc5Mzcy/v.swf" width="420" height="280" wmode="transparent" play="true" loop="false" menu="false" allowscriptaccess="never" allowfullscreen="true">-->
+            <!--<p>-->
+                <!--mySwing™ connection instruction demo-->
+            <!--</p>-->
+            <!--<embed type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" src="http://player.youku.com/player.php/sid/XNDQ0MjQxNDky/v.swf" width="420" height="280" wmode="transparent" play="true" loop="false" menu="false" allowscriptaccess="never" allowfullscreen="true">-->
+            <!--<p>-->
+                <!--mySwing™ -iPhone，IRON 7 swing demo-->
+            <!--</p>-->
+            <!--<embed type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" src="http://player.youku.com/player.php/sid/XNDYzNDg4Mjky/v.swf" width="420" height="280" wmode="transparent" play="true" loop="false" menu="false" allowscriptaccess="never" allowfullscreen="true">-->
+            <!--<p>-->
+                <!--mySwing™ – iPad demo-->
+            <!--</p>-->
+            <!--<embed type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" src="http://player.youku.com/player.php/sid/XMzQ3ODQwNjgw/v.swf" width="420" height="280" wmode="transparent" play="true" loop="false" menu="false" allowscriptaccess="never" allowfullscreen="true">-->
+            <!--<p>-->
+                <!--mySwing™ - Android phone swing demo-->
+            <!--</p>-->
+            <!--<embed type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" src="http://player.youku.com/player.php/sid/XMzQ3ODQwNzI0/v.swf" width="420" height="280" wmode="transparent" play="true" loop="false" menu="false" allowscriptaccess="never" allowfullscreen="true">-->
+            <!--<p>-->
+                <!--mySwing™ demo-->
+            <!--</p>-->
+            <!--<embed type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" src="http://player.youku.com/player.php/sid/XNDQ0MjYwODI0/v.swf" width="420" height="280" wmode="transparent" play="true" loop="false" menu="false" allowscriptaccess="never" allowfullscreen="true">-->
+            <!--<h4>Motion Capture</h4>-->
+            <!--<p>-->
+                <!--Handstand motion capture-->
+            <!--</p>-->
+            <!--<embed type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" src="http://player.youku.com/player.php/sid/XNDQzNTM3Nzc2/v.swf" width="420" height="280" wmode="transparent" play="true" loop="false" menu="false" allowscriptaccess="never" allowfullscreen="true">-->
+            <!--<p>-->
+            <!--Workout MCP Tristan-->
+            <!--</p>-->
+            <!--<embed type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" src="http://player.youku.com/player.php/sid/XMzQ0ODU2NDY0/v.swf" width="420" height="280" wmode="transparent" play="true" loop="false" menu="false" allowscriptaccess="never" allowfullscreen="true">-->
+            <!--<h4>IMU</h4>-->
+            <!--<p>-->
+                <!--IMU motion control-->
+            <!--</p>-->
+
+        </div>
+        <div id="news" class="intro">
+            <h3>mySwing™ FAQ</h3>
+            <div class="bt">
+                <p>
+                    Q: 杆头速度应该是多少？
+                </p>
+                <p>
+                    A: 在保持挥杆动作的稳定性和准确的方向的前提下，杆头速度越快越好。越快的杆头速度，将会产生更远的飞行距离。
+                    下图为一号木典型的杆头速度和飞行距离的关系图
+                    <img src="images/faq1-zn.png" width="562" height="363">
+                </p>
+            </div>
+            <div class="bt">
+                <p>
+                    Q: 飞行距离应该是多少？
+                </p>
+                <p>
+                    A: 下表为典型的不同型号的杆对应的典型飞行距离
+                    <img src="images/faq2-zn.jpg" width="562" height="363">
+                </p>
+            </div>
+            <div class="bt">
+                <p>
+                    Q: 合理的挥杆节奏应该是多少？
+                </p>
+                <p>
+                    A: 对大部分入门的球手，合理的上下挥杆节奏应该在3：1左右，亦即上挥杆和下挥杆的时间的比例为3：1。如果能稳定得保持3：1的节奏，下挥杆的时间越短越好。越短的下挥杆时间，会导致更更快的杆头速度。
+                    注：很多好手的挥杆节奏能达到4：1甚至5：1，而且下挥杆时间能控制在0.25秒以内。
+                </p>
+                <img src="images/faq3-zn.png" >
+            </div>
+            <div class="bt">
+                <p>
+                    Q: 什么是杆面角？什么是杆头轨迹角？
+                </p>
+                <p>
+                    A: 杆头轨迹角：
+                         杆头轨迹线与目标击球方向之间的夹角。<br>
+                         杆面角：
+                         击球时杆面朝向与杆头轨迹线之间的夹角。<br>
+                         符号定义<br>
+                         +的杆面角为open,－ 的杆面角为 close<br>
+                         +的杆头轨迹角为inside-out, － 的杆头轨迹角为outside-in<br>
+                         杆面角和杆头轨迹角对球路的影响：<br>
+                        杆面角的开与合（open or close）决定了球路为外曲（slice）还是内曲（hook）。<br>
+                        杆头轨迹角的正与负（inside-out or outside-in）决定了初始杆路是偏右 （push）还是偏左（pull）。<br>
+                        杆面角度和杆头轨迹角接近0度，则能打出很直的球路。<br>
+                        不同的杆面角和杆头轨迹角组合有可能制造出以下图中9种不同的球路。
+                        <img src="images/faq4-zn.jpg" width="562" height="363">
+                </p>
+            </div>
+            <div class="bt">
+                <p>
+                    Q:什么是杆身俯仰角（Lie )？什么是杆面仰角（Loft）？
+                </p>
+                <p>
+                    A: 杆身俯仰角：<br>
+                    击球时杆身与地面之间的夹角。杆身俯仰角对击球效果影响也很大，尤其是对中短铁杆。通常人们会说有三种杆身俯仰角：standard, flat, 和upright。 比如4号铁杆，假如其标准杆身俯仰角为61度，大于61度就为upright, 而小于61度即为flat。
+                </p>
+                <img src="images/faq5-zn.jpg">
+                <p>
+                    杆面仰角：<br>
+                    击球时杆面朝向与地面之间的夹角。在击球的时候，杆面仰角越大，越容易把球打高。通常而言，一套杆里，越长的杆，其标准的杆面仰角会越低。
+                </p>
+                <img src="images/faq5-1-zn.jpg">
+                <p>
+                    典型铁杆和木杆的杆面仰角和杆身俯仰角数值<br>
+                    <img src="images/faq5-2-zn.png">
+                </p>
+            </div>
+            <div class="bt">
+                <p>
+                    Q: 挥杆宝模块LED不同的闪烁方式代表什么？
+                </p>
+                <p>
+                    A: 传感器模块LED灯有四种不同状态表征传感器不同工作模式：<br>
+                    * 传感器开机后，LED灯处于“慢闪”状态，表示此时模块处于待机状态，可与iOS设备连接;<br>
+                    * 在iOS设备的蓝牙设置界面，搜索并连接mySwing模块<br>
+                    * 连接成功后，模块LED灯将进入“呼吸”模式表示蓝牙连接正常<br>
+                    * 启动mySwing应用，开始一个新的挥杆小节，模块LED灯将进入“快闪”模式，此时即可挥杆;<br>
+                    * 当传感器模块电量较低时，模块LED灯将呈“红色”模式，此时应在30分钟内将模块充电，完全充满电约需30分钟。一个充满电的传感器模块，通常能连续工作2.5小时
+                </p>
+            </div>
+            <div class="bt">
+                <p>
+                    Q: 如何开、关挥杆宝模块
+                </p>
+                <p>
+                    A: 模块上只有一个按钮，在模块侧面的中部
+                    轻轻按一下按钮即开机
+                    长按按钮5秒关机
+                    <img src="images/faq7-zn.png" >
+                </p>
+            </div>
+            <div class="bt">
+                <p>
+                    Q: 如何更换绑带？
+                </p>
+                <p>
+                    A: 包装内有一条备用粘扣绑带，当原装绑带出现明显的老化迹象时，可用备用绑带替换。<br>
+                    绑带通过一根金属棒跟模块通过卡扣连接。<br>
+                    需要替换时，沿左图方向拔出，替换绑带后，在按左图方向挤入即可。详见辅助视频。<br>
+                    参考绑带更换视频<br>
+                    <a href="http://v.youku.com/v_show/id_XNDk2MDc5Mzcy.html">http://v.youku.com/v_show/id_XNDk2MDc5Mzcy.html</a><br>
+                    <img src="images/faq8-zn.png" >
+                </p>
+            </div>
+            <div class="bt">
+                <p>
+                    Q:充电需要多久，充一次电可以使用多久？
+                </p>
+                <p>
+                    A: 当传感器模块电量较低时，模块LED灯将呈“红色”模式，此时应在30分钟内将模块充电，完全充满电约需30分钟。一个充满电的传感器模块，通常能连续工作2.5小时。
+                </p>
+            </div>
+            <div class="bt">
+                <p>
+                    Q: 如何删除无用数据？
+                </p>
+                <p>
+                    A:在数据列表界面，用手指横向滑动，即会出现“删除”按钮，按按钮确认删除。
+                    <img src="images/faq10-zn.png" width="562" height="363">
+                </p>
+            </div>
+            <div class="bt">
+                <p>
+                    Q: 空挥时会捕捉到挥杆动作吗？
+                </p>
+                <p>
+                    A: 如果挥杆过程没有击球，挥杆宝依然会捕捉挥杆动作，但是只会给出最大的杆头速度，以及挥杆节奏，不会有其它角度数据。空挥的数据也不会存入统计数据中，不影响总体统计结果。
+                    <img src="images/faq11-zn.png" >
+                </p>
+            </div>
+            <div class="bt">
+                <p>
+                    Q: 理想的挥杆应该是什么样的？
+                </p>
+                <p>
+                    A: 对于大部分球手而言，将球打得远、直、稳是基本的挥杆要求。<br>
+                    杆头速度越快越好，但是前提是有稳定的节奏<br>
+                    要打直，角度控制要好<br>
+                    杆头轨迹角0度为最佳，一般球手能控制在正负4度以内也已经不错<br>
+                    杆面角0度为最佳，一般球手能控制在正负2度以内也已经不错<br>
+                    杆面仰角和杆身俯仰角数值应该该与球杆的基本一致。<br>
+                    <img src="images/faq12-zn.png">
+                </p>
+            </div>
+            <div class="bt">
+                <p>
+                    Q: 为什么有时候会有鼓掌声？
+                </p>
+                <p>
+                    A: 鼓掌声代表球打得很直，标准为杆头轨迹角和杆面角都很小
+                </p>
+                <img src="images/faq13-zn.png" >
+            </div>
+            <div class="bt">
+                <p>
+                    Q: 挥杆前如果杆头没有摆正会有什么影响？
+                </p>
+                <p>
+                    A: 挥杆宝是假设在挥杆前，杆头的指向作为参考的目标方向，后续的角度测量都是相对初始的杆头指向而言的。如果在一开始杆头没有摆正的，即使击球的时候打的很直，挥杆宝也会测量出一个角度。所以，在使用挥杆宝的时候，务必将杆头在开始的时候摆正。
+                    <img src="images/faq14-zn.png" width="562" height="363">
+                </p>
+            </div>
+            <div class="bt">
+                <p>
+                    Q: 我怎么才知道应用程序有更新？
+                </p>
+                <p>
+                    A: 在iOS系统中，如果应用程序有更新，系统本身会有提示。同时，当你打开mySwing的应用程序的时候，程序会自动检测该版本是否是最新版本，如果不是，会提醒您是否需要更新。
+                </p>
+            </div>
+            <div class="bt">
+                <p>
+                    Q: 挥杆宝相对于其它竞争对手优势在哪里？
+                </p>
+                <p>
+                    A: 精准度高，我们的技术源于全球领先的高速无线全身动作捕捉系统，是目前最精准的便携式挥杆分析仪
+                    响应速度快，使用了嵌入式MEMS处理器，挥杆后无需任何等待和干预即可获取数据<br>
+                    质量轻，安装方便，尤其是安装夹具设计精巧，牢固地将传感器固定于球杆上<br>
+                    应用程序界面友好，使用简单，挥杆数据一目了然<br>
+                    目前市面的便携式挥杆分析仪中，唯一含有内置的弹道飞行分析模拟程序
+                </p>
+            </div>
+            <div class="bt">
+                <p>
+                    Q: 保修期是多久？如何保修？
+                </p>
+                <p>
+                    A: 至购买日起1年为保修期。<br>
+                    保修期内如果发生质量问题，厂家直接替换一个新产品。
+                </p>
+            </div>
+            <div class="bt">
+                <p>
+                    Q: 挥杆宝的技术来至哪里？挥杆宝是哪里的产品？
+                </p>
+                <p>
+                    A: 挥杆宝的核心技术在美国开发。<br>
+                    挥杆宝的产品制造在中国。<br>
+                    我们的技术是源于世界领先的高速无线动作捕捉技术
+                </p>
+            </div>
+            <div class="bt">
+                <p>
+                    Q: 哪里可以设置左手?
+                </p>
+                <p>
+                    A: 在主界面的“用户管理”进入帐号管理和创建页面
+                    在创建帐号的时候，可以选择是左手还是右手
+                    <img src="images/faq19-zn.png" >
+                </p>
+            </div>
+            <div class="bt">
+                <p>
+                    Q: 怎么观看挥杆平面？
+                </p>
+                <p>
+                    A: 通过3D 模型观察挥杆平面，可以更直观的观察到自己的挥杆动作。以下是一些例子
+                    <img src="images/faq20-1-zn.png" width="562" height="363">
+                    <img src="images/faq20-2-zn.png" width="562" height="363">
+                    <img src="images/faq20-3-zn.png" width="562" height="363">
+                </p>
+            </div>
+            <div class="bt">
+                <p>
+                    Q: 弹道图里的距离包含滚动距离么？
+                </p>
+                <p>
+                    A: 弹道图中的距离为飞行距离，不包含滚动距离。
+                </p>
+            </div>
+            <div class="bt">
+                <p>
+                    Q: 怎么下载挥杆宝应用程序？
+                </p>
+                <p>
+                    A:<br>
+                    <img src="images/faq22-1-zn.png" >
+                    <img src="images/faq22-2-zn.png" >
+                </p>
+            </div>
+            <div class="bt">
+                <p>
+                    Q: 挥杆宝支持安卓ANDROID手机么？
+                </p>
+                <p>
+                    A: Noitom公司正在开发针对Android系统的应用程序。预计在2013年3月初面世。
+                    传感器模块的硬件将会同时支持iOS 和 Android系统。也就是说，已经购买了挥杆宝模块的客户，待Android版本的应用程序面世后，用手头的模块即可配合使用Android的应用程序，无需再次购买。
+                </p>
+            </div>
+            <div class="bt">
+                <p>
+                    Q: 挥杆宝支持推杆练习么？挥杆宝支持劈杆练习么？
+                </p>
+                <p>
+                    A: 挥杆宝将会支持推杆练习，预计2013年4月初正式发布。挥杆宝暂时不支持劈杆练习。
+                </p>
+            </div>
+            <div class="bt">
+                <p>
+                    Q: 挥杆宝的数据可以导出么？
+                </p>
+                <p>
+                    A: 挥杆宝数据都存储在手机本地，暂时不支持导出。但是可以通过微博等社交网络发布挥杆界面的截图。
+                </p>
+            </div>
+            <div class="bt">
+                <p>
+                    Q: 我能不能将挥杆宝应用程序装在不同的手机上？
+                </p>
+                <p>
+                    A: 挥杆宝应用程序可以下载到任意多台的手机，但是在任何时刻，挥杆宝模块只能对应一个手机，数据也是保持到该手机的本地。
+                    挥杆宝应用程序为免费程序，即使没有挥杆宝模块，也可以下载。
+                </p>
+            </div>
+
+
+            <div class="bt">
+                <p>
+                    Q: What’s the relationship between club head speed and carry distance
+                </p>
+                <p>
+                    A: Typical relationship between club head speed and carry distance for driver is shown below
+                    <img src="images/faq1.jpg">
+                </p>
+            </div>
+            <div class="bt">
+                <p>Q: What is upswing tempo?</p>
+                <p>A: Upswing is the movement of the golf club rearward, away from the ball, and then up and around the body, until the golfer reaches the point where he transitions the movement of the club forward again. Upswing tempo is the duration of upswing (in second(s)).</p>
+            </div>
+            <div class="bt">
+                <p>Q: What is downswing tempo?</p>
+                <p>A: Down swing is the term for that part of the golf swing that occurs between the end of the upswing and the impact with the golf ball. Downswing tempo is the duration of downswing(in second(s))</p>
+            </div>
+            <div class="bt">
+                <p>Q: What’s good swing tempo?</p>
+                <p>A: Good golfers have steady upswing and downswing tempos. An upswing and downswing tempo ratio of 3:1 is considered good for most amateur golfers.If a user maintains a 3:1 ratio, thefaster thedownswing tempo the better ther swing.</p>
+            </div>
+            <div class="bt">
+                <p>Q: What’s club head path angle?</p>
+                <p>A: The angle between the club head's direction of movement and the target direction.</p>
+            </div>
+            <div class="bt">
+                <p>Q: What’s club face angle?</p>
+                <p>A: The angle between the clubface direction and the club head path.
+                <img src="images/faq2.jpg">
+                </p>
+            </div>
+            <div class="bt">
+                <p>Q: How do clubface angle and club head path angle affect the ball flight?</p>
+                <p>A: The combination of club face angle and club head path angle can have significant effects on the ball flight pattern. There are typically 9 types of ball flights, as shown in the picture below.
+                <img src="images/faq3.jpg">
+                </p>
+                <p>Ideally, to hit a straight ball, you need to swing at 0 club face angle and 0 club path angle</p>
+                <p>Positive club face angle will create “slice”.</p>
+                <p>Negative clubface angle will create “hook”.</p>
+                <p>Positive path angle will create “in-side-out” or “push”</p>
+                <p>Negative path angle will create “in-side-out” or “pull”</p>
+                <p >For instance, if you swing at a positive club face angle and a negative club path angle, the ball flight pattern will be “pull-slice”.</p>
+                <p >Please refer to the following diagram to quickly check how different combinations of clubface angle and club path angle affect the ball flight patterns.</p>
+                <img src="images/faq4.jpg" >
+                <div class="clear"></div>
+            </div>
+            <div class="bt">
+                <p>Q: What is loft angle</p>
+                <p>A: Loft angle is the angle between the club face angle and the ground, as shown in the following picture:
+                <img src="images/faq5.jpg">
+                </p>
+                <p>The higher the club loft measurement, the higher the resultant ball flight. Loft is the primary reason the ball becomes airborne. Typically through a set of clubs, the longer the club, the lower the loft.</p>
+            </div>
+            <div class="bt">
+                <p>Q: What is lie angle</p>
+                <p>A: Lie angle is the angle between the centerline of the shaft and the ground-line with the club in a normal playing position, as shown in the following picture:
+                </p>
+                <p>The lie plays a key role in shot direction, particularly in relation to mid and short irons. The lie of an iron is said to be standard, flat or upright. For example a typical #5 iron may have a standard lie angle of 60 degrees; a more upright iron would have a lie angle greater than 60 degrees, and a flatter iron would have a lie angle less than 60 degrees.</p>
+                <img  src="images/faq6.jpg">
+            </div>
+            <div >
+                <p>Q: What is the typical lie and loft angles of a set of clubs</p>
+                <p>A: Please refer to the following tables.
+                <img src="images/faq7.jpg">
+                </p>
+            </div>
+        </div>
+        </div>
+    <div class="clear"></div>
+    </div>
+
+
+<div class="footer">
+    <div class="footer-content">
+        <div id="first" class="widget-area" style="height: 180px">
+            <!--<ul class="xoxo">-->
+                <!--<li id="execphp-6" class="widget-container widget_execphp">-->
+                    <!--<h3 class="widget-title">ABOUT Noitom</h3>-->
+                    <!--<div class="execphpwidget">-->
+                        <!--<p>Noitom develops highly accurate and user-friendly inertial motion capture systems, allowing you to record and digitize complex body motions, anywhere and anytime.</p>-->
+                    <!--</div>-->
+                <!--</li>-->
+            <!--</ul>-->
+        </div>
+        <div id="second" class="widget-area">
+            <ul class="xoxo">
+                <li class="widget-container widget_execphp">
+                    <h3 class="widget-title">ABOUT NOITOM</h3>
+                    <div class="execphpwidget">
+                        <p>Noitom develops highly accurate and user-friendly inertial motion capture systems, allowing you to record and digitize complex body motions, anywhere and anytime.</p>
+                    </div>
+                </li>
+            </ul>
+            <!--<ul class="xoxo">-->
+                <!--<li>-->
+                    <!--<h3 class="widget-title">COMPANY</h3>-->
+                    <!--<ul class="menu">-->
+                        <!--<li ><a href="#">US Operation</a></li>-->
+                        <!--<li ><a-->
+                                <!--href="#">706 Mize Farm Ct. Maryville, TN 37803, USA</a>-->
+                        <!--</li>-->
+                    <!--</ul>-->
+                <!--</li>-->
+            <!--</ul>-->
+            <!--<br>-->
+            <!--<ul class="xoxo">-->
+                <!--<li class="widget-container widget_nav_menu">-->
+                    <!--<ul class="menu">-->
+                        <!--<li><a href="#">China Operation</a></li>-->
+                        <!--<li ><a href="#">Room 700,B&H Plaza,1077 Nanhai Road Shenzhen,518067, China</a>-->
+                        <!--</li>-->
+                    <!--</ul>-->
+                <!--</li>-->
+            <!--</ul>-->
+        </div>
+        <div id="third" class="widget-area">
+            <ul class="xoxo">
+                <li>
+                    <h3 class="widget-title">CONTACT</h3>
+                    <ul class="menu">
+                        <li >Noitom Beijing Headquarter Room 412, Main Tower  No.28 Xinjiekouwai Blvd.</li>
+                        <li >Beijing, 100088,China</li>
+                        <li >Tel: +86 10 82053583</li>
+                        <li>Email: info@noitom.com</li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <div class="clear"></div>
+    </div>
+    <div class="copyright">
+        ©  Copyright  2012 Noitom Ltd. All rights reserved
+    </div>
+</div>
+<div id="totop" class="back2Top" style="display: block;">返回</div>
+<script type="text/javascript" src="js/utils.js"></script>
+<script type="text/javascript">
+    var conts = ["nocp","myswing","imu"];
+    var $ = function(id){
+        return document.getElementById(id);
+    }
+    function show(id){
+        hideConts();
+        if($(id))
+        $(id).style.display = "block";
+    }
+    function hideConts(){
+        for(var i= 0,cont;cont=conts[i++];){
+            if($(cont)){
+                $(cont).style.display = "none";
+            }
+        }
+    }
+    hideConts();
+        new ToTop("totop",{
+            click:function(){
+                location.href="products.html";
+            }
+        })
+
+</script>
+</body>
+</html>

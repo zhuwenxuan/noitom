@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="css/index.css" type="text/css"/>
+    <script type="text/javascript" src="js/TweenMax.js"></script>
+    <script type="text/javascript" src="js/domUtils.js"></script>
+</head>
+<body>
+<div class="header">
+    <div class="header-container">
+        <div class="logo fl">
+            <a href="index.html"><img src="images/logo.gif"></a>
+        </div>
+        <div class="nav fl">
+            <ul>
+                <li>
+                    <a href="index.html">HOME</a>
+                </li>
+                <li>
+                    <a href="about.html">ABOUT</a>
+                </li>
+                <li>
+                    <a href="application.html">APPLICATIONS</a>
+                </li>
+                <li>
+                    <a href="products.html">PRODUCTS</a>
+                </li>
+                <li>
+                    <a href="support.html">SUPPORT</a>
+                </li>
+                <li>
+                    <a href="concat.html">CONTACT</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+<div class="content-wrap">
+    <div class="simg">
+        <div class="scrollimg">
+            <div class="left-smail sactive" id="leftsmail">
+            </div>
+            <div class="left" id="left">
+                <div class="ipt">
+                    <a class="video" href="http://www.youtube.com/v/KE3aM6M9rFI" target="_blank">Video</a>
+                    <a class="product" href="products.html">Product info</a>
+                </div>
+            </div>
+            <div class="right active" id="right">
+                <div class="ipt">
+                    <a class="video" href="http://www.youtube.com/v/4fpVIa1SFWs" target="_blank">Video</a>
+                    <a class="product" href="products.html?news">Product info</a>
+                </div>
+            </div>
+            <div class="right-smail" id="rightsmail">
+                <p></p>
+            </div>
+            <div class="scrolltab">
+                <img src="images/inocp.png" id="imgnocp"><img src="images/imyswing.png" id="imgswing">
+            </div>
+        </div>
+    </div>
+    <div class="solution">
+        <h3>Applications of Motion Capture Technology</h3>
+
+        <div class="items">
+            <div class="item fl">
+                <div class="smailimg item1" onclick="link('enter')">
+                    <div class="smailimgtop"></div>
+                    <div class="smailimgbottom"></div>
+                </div>
+                <div class="fl">
+                    <img src="images/smailimgbg.gif" >
+                </div>
+                <div class="clear"></div>
+                <h3 onclick="link('enter')">Entertainment</h3>
+                <p class="desc">
+                    Film and animation making, computer game development.
+                </p>
+            </div>
+            <div class="item fl" >
+                <div class="smailimg item2" onclick="link('sport')">
+                    <div class="smailimgtop"></div>
+                    <div class="smailimgbottom">
+                    </div>
+                </div>
+                <img src="images/smailimgbg.gif" class="fl">
+
+                <div class="clear"></div>
+                <h3 onclick="link('sport')">Sports & Biomedical</h3>
+                <p class="desc">
+                    Sports training, rehabilitation and others.
+                </p>
+            </div>
+            <div class="item fl">
+                <div class="smailimg item3" onclick="link('virtual')">
+                    <div class="smailimgtop"></div>
+                    <div class="smailimgbottom">
+                    </div>
+                </div>
+                <img src="images/smailimgbg.gif" class="fl">
+
+                <div class="clear"></div>
+                <h3 onclick="link('virtual')">Virtual Reality</h3>
+                <p class="desc">
+                    Virtual reality, interaction and virtual augmented reality.
+                </p>
+            </div>
+            <div class="item fl">
+                <div class="smailimg item4" onclick="link('industrial')">
+                    <div class="smailimgtop"></div>
+                    <div class="smailimgbottom">
+                    </div>
+                </div>
+                <img src="images/smailimgbg.gif" class="fl">
+
+                <div class="clear"></div>
+                <h3 onclick="link('industrial')">Industrial</h3>
+                <p class="desc">
+                    Robotics, unmanned aircraft and others.
+                </p>
+            </div>
+            <div class="clear"></div>
+        </div>
+    </div>
+    <div class="news clearfix">
+        <h2>News</h2>
+        <div class="scrollnews" id="scrollnews">
+            <div class="news1" id="news1">
+                <div class="newsitem">
+                    <a class="bullet-link" href="about.html?news">mySwing™ App version V 1.2.3 released:&nbsp;&nbsp;Jan 14, 2013</a>
+                </div>
+                <div class="newsitem">
+                    <a class="bullet-link" href="about.html?news">Meet us at the 60th PGA Merchandise Show:&nbsp;&nbsp;Jan 24-26,2013</a>
+                </div>
+                <div class="newsitem">
+                    <a class="bullet-link" href="about.html?news">We are exhibiting at 2013 China Golf Show in Beijing:&nbsp;&nbsp;Mar. 22 -24,2013</a>
+                </div>
+                <div class="clear"></div>
+            </div>
+            <div class="news2" id="news2"></div>
+        </div>
+        <div class="readmore">
+            <a href="about.html?news">Read More</a>
+        </div>
+    </div>
+</div>
+<div class="footer">
+    <div class="footer-content">
+        <div id="first" class="widget-area" style="height: 180px">
+            <!--<ul class="xoxo">-->
+                <!--<li id="execphp-6" class="widget-container widget_execphp">-->
+                    <!--<h3 class="widget-title">ABOUT Noitom</h3>-->
+                    <!--<div class="execphpwidget">-->
+                        <!--<p>Noitom develops highly accurate and user-friendly inertial motion capture systems, allowing you to record and digitize complex body motions, anywhere and anytime.</p>-->
+                    <!--</div>-->
+                <!--</li>-->
+            <!--</ul>-->
+        </div>
+        <div id="second" class="widget-area">
+            <ul class="xoxo">
+                <li class="widget-container widget_execphp">
+                    <h3 class="widget-title">ABOUT NOITOM</h3>
+                    <div class="execphpwidget">
+                        <p>Noitom develops highly accurate and user-friendly inertial motion capture systems, allowing you to record and digitize complex body motions, anywhere and anytime.</p>
+                    </div>
+                </li>
+            </ul>
+            <!--<ul class="xoxo">-->
+                <!--<li>-->
+                    <!--<h3 class="widget-title">COMPANY</h3>-->
+                    <!--<ul class="menu">-->
+                        <!--<li ><a href="#">US Operation</a></li>-->
+                        <!--<li ><a-->
+                                <!--href="#">706 Mize Farm Ct. Maryville, TN 37803, USA</a>-->
+                        <!--</li>-->
+                    <!--</ul>-->
+                <!--</li>-->
+            <!--</ul>-->
+            <!--<br>-->
+            <!--<ul class="xoxo">-->
+                <!--<li class="widget-container widget_nav_menu">-->
+                    <!--<ul class="menu">-->
+                        <!--<li><a href="#">China Operation</a></li>-->
+                        <!--<li ><a href="#">Room 700,B&H Plaza,1077 Nanhai Road Shenzhen,518067, China</a>-->
+                        <!--</li>-->
+                    <!--</ul>-->
+                <!--</li>-->
+            <!--</ul>-->
+        </div>
+        <div id="third" class="widget-area">
+            <ul class="xoxo">
+                <li>
+                    <h3 class="widget-title">CONTACT</h3>
+                    <ul class="menu">
+                        <li >Noitom Beijing Headquarter Room 412, Main Tower  No.28 Xinjiekouwai Blvd.</li>
+                        <li >Beijing, 100088,China</li>
+                        <li >Tel: +86 10 82053583</li>
+                        <li>Email: info@noitom.com</li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <div class="clear"></div>
+    </div>
+    <div class="copyright">
+        ©  Copyright  2012 Noitom Ltd. All rights reserved
+    </div>
+</div>
+<script type="text/javascript">
+    (function () {
+        var $ = function (id) {
+            return document.getElementById(id);
+        }
+        var right = $("rightsmail"),
+                left = $("leftsmail"),
+                leftcont = $("left"),
+                rightcont = $("right");
+        $("imgnocp").onclick = left.onclick = function () {
+            if (domUtils.hasClass(left, "sactive")) {
+                domUtils.removeClasses(left, "sactive");
+
+                domUtils.removeClasses(rightcont, "active");
+                TweenLite.to(rightcont, 1, {css:{width:"200px"}, onComplete:function () {
+                    domUtils.addClass(right, "sactive");
+                    domUtils.addClass(leftcont, "active");
+                }});
+            }
+        }
+        $("imgswing").onclick = right.onclick = function () {
+            if (domUtils.hasClass(right, "sactive")) {
+                domUtils.removeClasses(right, "sactive");
+
+                domUtils.removeClasses(leftcont, "active");
+                TweenLite.to(rightcont, 1, {css:{width:"762px"}, onComplete:function () {
+                    domUtils.addClass(left, "sactive");
+                    domUtils.addClass(rightcont, "active");
+                }});
+            }
+        }
+        var speed = 200,
+                scrollimg = $("scrollnews"),
+                news1 = $("news1"),
+                news2 = $("news2");
+        news2.innerHTML = news1.innerHTML
+        function Marquee() {
+            if (news2.offsetTop - scrollimg.scrollTop <= 0){
+                 scrollimg.scrollTop -= news1.offsetHeight;
+            }else {
+                scrollimg.scrollTop++
+            }
+        }
+        var MyMar = setInterval(Marquee, speed)
+        scrollimg.onmouseover = function () {
+            clearInterval(MyMar)
+        }
+        scrollimg.onmouseout = function () {
+            MyMar = setInterval(Marquee, speed)
+        }
+    })();
+    function link(tab){
+        location.href="application.html?"+tab;
+    }
+
+
+</script>
+</body>
+</html>

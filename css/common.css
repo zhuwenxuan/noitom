@@ -1,0 +1,63 @@
+@import "reset.css";
+/*div{border: 1px solid red;}*/
+.clear{clear: both;}
+.fl{float: left}
+.fr{float: right;}
+hr{border-top:1px;}
+h4{font-size: 15px;margin-top:2em;}
+/*header start*/
+.header{background: #181818;height: 91px;}
+.header-container{width:940px;height: 100%;margin:0 auto;padding:0 5px;}
+.logo{margin-top: 15px;margin-left: 15px;}
+.logo img{width: 143px;height: 65px;}
+.nav{margin: 30px 0px 30px 170px;}
+.nav a{color: #BABABA;font-size: 14px;cursor: pointer;display: inline-block;padding: 2px 14px;border-radius: 2px;}
+.nav a:hover{background: url(../images/navhover.png) repeat-x;}
+.nav ul li{float: left;}
+/*header end*/
+
+/*footer start*/
+.footer{
+    display: block;
+    background: #181818;
+    color: #707070;
+    text-align: left;
+    font-size: 0.85em;
+    padding-bottom: 2em;
+}
+.footer .widget-area {
+float: left;
+    margin: 0 24px;
+}
+.footer-content{
+    width:940px;height: 100%;margin:0 auto;padding:0 5px;
+}
+.footer-content div {
+width: 255px;
+}
+.footer h3 {
+    margin: 30px 0;
+font-size: 20px;
+color: #B3B3B3;
+
+}
+.footer p {line-height: 1.6em;color:#707070;}
+.footer  a{color:#707070;}
+.footer .menu li{color:#707070;}
+.copyright{color: #707070;width: 315px;margin: 30px auto 0;}
+/*footer end*/
+
+.time{color:#ccc;font-size: 12px;}
+
+.leftnav ul li {
+border-bottom: 1px solid #ccc;
+padding: 1em 0;
+}
+.rightcontent{width: 650px;border-left:1px solid #ccc;border-right: 1px solid #ccc;float: left;padding:5px 5px 25px 5px;}
+.rightcontent ul{margin: 0 0 1em 0; }
+
+.intro h3{font-size: 20px;}
+.intro p{margin: 2em 0 1em 0;line-height: 1.65em;}
+.bt{border-bottom: 1px solid #ccc;padding-bottom: 20px;margin-bottom: 20px;}
+.btlast{border-bottom: 0px;}
+

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+</head>
+<body>
+<script type="text/javascript">
+    var Bag = function(){
+        var show = function(){
+            alert(this.color);
+        }
+    }
+//        this.color="yellow";
+    Bag.Red=function(){
+        this.color = "red";
+    };
+    Bag.Black=function(){
+        this.color = "black";
+    };
+    Bag.Green=function(){
+        this.color = "green";
+    }
+    Bag.prototpye={
+//        show:function(){
+//            this.color;
+//        }
+    };
+    var BagFactory = function(type){
+        var bag = new Bag[type]();
+        debugger
+        bag.show()
+    }
+    BagFactory("Red");
+
+</script>
+</body>
+</html>

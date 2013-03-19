@@ -1,0 +1,15 @@
+@import "common.css";
+body{font-family: 'Helvetica Neue', 'Helvetica', 'Lucida Grande', sans-serif;}
+.content-wrap{background-color: white;width:962px;margin: 0 auto;padding:0 10px;}
+.leftnav{margin-left:30px;width: 225px;font-weight: bold;text-transform: uppercase;float: left;}
+.leftnav ul li a{color:#707070;font-size: 0.85em;}
+.leftnav .active a{color:black;}
+.leftnav ul li a:hover{color:#fe0000;}
+
+
+.intro ol{margin-left:25px;}
+.intro ol li{list-style:decimal;}
+.intro ul{margin-left:20px;}
+.intro ul li{margin-bottom: 10px;}
+.intro h4{font-size: 15px;}
+

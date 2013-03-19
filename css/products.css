@@ -1,0 +1,52 @@
+@import "common.css";
+body{font-family: 'Helvetica Neue', 'Helvetica', 'Lucida Grande', sans-serif;}
+.content-wrap{background-color: white;width:962px;margin: 0 auto;padding:0 10px;}
+.leftnav{margin-left:30px;width: 225px;font-weight: bold;text-transform: uppercase;
+    float: left;}
+.leftnav ul li a{color:#707070;font-size: 0.85em;}
+.leftnav .active a{color:black;}
+.leftnav ul li a:hover{color:#fe0000;}
+#intro ul{float: left;width: 380px;}
+#intro ul li{line-height: 22px;margin-left:20px;}
+
+.leftnav ul.snav .last{border-bottom: 0px;}
+.leftnav ul.snav{font-weight: normal;
+border-top: 1px solid red;
+padding-left: 1em;
+margin-top: 0.7em;
+margin-bottom: -0.7em;}
+
+
+#basic .rightcont{width:250px;}
+#basic .rightcont img{width: 200px;float: left;margin:30px 0 ;}
+#basic table tr td{padding:8px;}
+
+.ioswrap .iositem{
+    width: 200px;
+    float: left;
+    margin: 6px;
+    height: 370px;
+    text-align: center;
+    margin-top: 35px;
+}
+.ioswrap .iositem img{width: 180px;height: 270px;margin: 5px auto;}
+.ioswrap .iositem .text{width: 200px;}
+.ioswrap .iositem1{float: left;margin: 10px;text-align: center;margin-top: 5px;}
+.ioswrap .iositem2{float: left;margin: 10px;height: 50px;text-align: left;margin-top: 5px;}
+
+#ios table ul{margin: 10px 0 10px 20px;}
+#ios table ul li {list-style: disc;}
+
+.weibo{float: right;color: white;font-size: 12px;font-weight: bold;}
+.weibo span{height: 28px;line-height: 28px;display: inline-block;float: left;color: white;}
+.weibo a{display: inline-block;
+    width: 24px;height: 23px;background: url("http://img.t.sinajs.cn/t35/appstyle/opent/images/app/btn_trans.gif?id=201104131414") 0 -33px;}
+.intro .proimg{background-color: #393939;}
+.intro .imgwrap{height: 263px;}
+
+.intro .imghand{height: 28px;float: left;}
+.intro .imghand img{margin-right: 2px;cursor: pointer;}
+
+
+
+
