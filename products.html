@@ -100,7 +100,7 @@
                     <img id="showimg" src="images/myswingpro.png">
                 </div>
                 <div  class="imghand">
-                    <a onclick="showItem('ios')"><img src="images/hios.png"></a><a onclick="showItem('wtb')"><img src="images/wtb.png" ></a><a href="support.html?news"><img src="images/faq.png" ></a><a href="support.html"><img src="images/download.png" ></a><a href="support.html"><img src="images/video.png" ></a>
+                    <a onclick="showItem('ios')"><img src="images/hios.png"></a><a onclick="showItem('wtb')"><img src="images/wtb.png" ></a><a href="support.html?news"><img src="images/faq.png" ></a><a onclick="showItem('downapp')"><img src="images/download.png" ></a><a onclick="showItem('demovideo')"><img src="images/video.png" ></a>
                 </div>
                 <div class="weibo">
                     <span>Weibo:</span><a target="_blank" href="http://weibo.com/u/3108576147"></a>
@@ -386,6 +386,35 @@
                 </p>
 
                </div>
+            <div id="downapp" class="intro">
+               <a name="downapp"></a>
+                <h4>Download: </h4>
+                <p>Please download the free mySwingTM iOS App <a href="https://itunes.apple.com/cn/app/myswing/id560946532?mt=8" style="text-decoration: underline;">here</a></p>
+                <p>
+                    <a href="https://itunes.apple.com/app/id560946532?mt=8"><img src="images/support.png" ></a>
+                </p>
+                <p>Please download the free mySwingTM Android App <a href="http://www.noitom.com/download/myswing.apk" style="text-decoration: underline;">here</a></p>
+                <p>
+                    <img src="images/androiddown.png">
+                </p>
+
+           </div>
+            <div id="demovideo" class="intro">
+               <a name="demovideo"></a>
+                <h4>Video:</h4>
+                <p>
+                    mySwing™ iOS tutorial video
+                </p>
+                <embed type="application/x-shockwave-flash" class="edui-faked-video" pluginspage="http://www.macromedia.com/go/getflashplayer" src="http://www.youtube.com/watch?v=8gn5UKTlqrQ" width="420" height="280" align="none" wmode="transparent" play="true" loop="false" menu="false" allowscriptaccess="never" allowfullscreen="true" />
+                <p>
+                    mySwing™   Mount & Align sensor video
+                </p>
+                <embed type="application/x-shockwave-flash" class="edui-faked-video" pluginspage="http://www.macromedia.com/go/getflashplayer" src="http://v.youku.com/v_show/id_XNTE0ODU0OTE2.html" width="420" height="280" align="none" wmode="transparent" play="true" loop="false" menu="false" allowscriptaccess="never" allowfullscreen="true" />
+                <p>
+                    mySwing™  Assemble strap video
+                </p>
+                <embed type="application/x-shockwave-flash" class="edui-faked-video" pluginspage="http://www.macromedia.com/go/getflashplayer" src="http://v.youku.com/v_show/id_XNDk2MDc5Mzcy.html" width="420" height="280" align="none" wmode="transparent" play="true" loop="false" menu="false" allowscriptaccess="never" allowfullscreen="true" />
+           </div>
         </div>
         <div id="tech" class="intro">
             <img src="images/ntmpro.png" width="650px">
@@ -643,7 +672,7 @@
 <!--<div id="totop" class="back2Top" style="display: block;"></div>-->
 <script type="text/javascript" src="js/utils.js"></script>
 <script type="text/javascript">
-    var arr = ["wtb","ios"];
+    var arr = ["wtb","ios","downapp","demovideo"];
     function hideItmes(){
         for(var i= 0,item;item=arr[i++];){
             document.getElementById(item).style.display = "none";
@@ -658,6 +687,7 @@
         }
 
         document.getElementById(id).style.display = "";
+        location.href="#"+id;
     }
     hideItmes();
 //    new ToTop("totop")
