@@ -20,12 +20,124 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index_zh.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index_zh.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index_zh.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="51" column="22" selection-start="1699" selection-end="1699" vertical-scroll-proportion="0.064935066">
+            <state line="38" column="12" selection-start="1161" selection-end="1212" vertical-scroll-proportion="-4.861111">
               <folding>
                 <element signature="tag#div#2;tag#body#0;tag#html#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="about_zh.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/about_zh.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="37" column="63" selection-start="1182" selection-end="1182" vertical-scroll-proportion="-10.694445">
+              <folding>
+                <element signature="n#style#0;n#a#0;n#p#0;n#div#2;n#div#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#p#0;n#div#3;n#div#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="tag#div#2;tag#body#0;tag#html#0" expanded="false" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application_zh.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application_zh.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="37" column="63" selection-start="1152" selection-end="1152" vertical-scroll-proportion="-10.694445">
+              <folding>
+                <element signature="tag#div#2;tag#body#0;tag#html#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="conact_zh.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/conact_zh.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="37" column="63" selection-start="1315" selection-end="1315" vertical-scroll-proportion="-7.7777777">
+              <folding>
+                <element signature="tag#div#2;tag#body#0;tag#html#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="products_zh.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/products_zh.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="49" column="63" selection-start="1473" selection-end="1473" vertical-scroll-proportion="-7.7777777">
+              <folding>
+                <element signature="n#style#0;n#img#2;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#ul#0;n#div#3;n#div#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#p#0;n#div#5;n#div#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#p#2;n#div#5;n#div#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="tag#div#2;tag#body#0;tag#html#0" expanded="false" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="support_zh.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/support_zh.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="52" column="63" selection-start="1498" selection-end="1498" vertical-scroll-proportion="0.52895755">
+              <folding>
+                <element signature="n#style#0;n#a#0;n#li#1;n#ul#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#p#0;n#div#5;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#p#2;n#div#5;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#6;n#p#1;n#div#0;n#div#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="tag#div#2;tag#body#0;tag#html#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="37" column="69" selection-start="1163" selection-end="1163" vertical-scroll-proportion="-8.75">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="conact.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/conact.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="37" column="69" selection-start="1158" selection-end="1158" vertical-scroll-proportion="-8.75">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="products.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/products.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="38" column="69" selection-start="1230" selection-end="1230" vertical-scroll-proportion="-8.75">
+              <folding>
+                <element signature="n#style#0;n#a#0;n#li#1;n#ul#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="tag#div#3;tag#div#1;tag#div#1;tag#div#1;tag#body#0;tag#html#0" expanded="false" />
+                <element signature="n#style#0;n#a#0;n#p#0;n#div#5;n#div#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#p#2;n#div#5;n#div#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="support.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/support.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="52" column="68" selection-start="1508" selection-end="1508" vertical-scroll-proportion="-5.8333335">
+              <folding>
+                <element signature="n#style#0;n#a#0;n#p#0;n#div#5;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#p#2;n#div#5;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -51,12 +163,12 @@
         <option value="$PROJECT_DIR$/conact.html" />
         <option value="$PROJECT_DIR$/products.html" />
         <option value="$PROJECT_DIR$/support.html" />
+        <option value="$PROJECT_DIR$/index_zh.html" />
         <option value="$PROJECT_DIR$/about_zh.html" />
         <option value="$PROJECT_DIR$/application_zh.html" />
         <option value="$PROJECT_DIR$/conact_zh.html" />
         <option value="$PROJECT_DIR$/products_zh.html" />
         <option value="$PROJECT_DIR$/support_zh.html" />
-        <option value="$PROJECT_DIR$/index_zh.html" />
       </list>
     </option>
   </component>
@@ -236,11 +348,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/js/utils.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="82" column="14" selection-start="3290" selection-end="3290" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/factory.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="15" column="6" selection-start="290" selection-end="290" vertical-scroll-proportion="-14.583333" />
@@ -251,39 +358,21 @@
         <state line="23" column="24" selection-start="757" selection-end="757" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/images/eng.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/css/common.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="28" selection-start="408" selection-end="408" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/about.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="0" selection-start="1205" selection-end="1205" vertical-scroll-proportion="-12.055555" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="0" selection-start="1175" selection-end="1175" vertical-scroll-proportion="-12.444445" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/conact.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="0" selection-start="1170" selection-end="1170" vertical-scroll-proportion="-12.444445" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/products.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="0" selection-start="1242" selection-end="1242" vertical-scroll-proportion="-10.694445" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/support.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="8" selection-start="1529" selection-end="1529" vertical-scroll-proportion="-9.722222" />
+        <state line="16" column="32" selection-start="650" selection-end="650" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="18" selection-start="1428" selection-end="1428" vertical-scroll-proportion="58.333332">
+        <state line="38" column="12" selection-start="1166" selection-end="1223" vertical-scroll-proportion="-6.25">
           <folding>
             <element signature="tag#div#0;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
             <element signature="tag#div#1;tag#div#0;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
@@ -291,35 +380,111 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/about_zh.html">
+    <entry file="file://$PROJECT_DIR$/about.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="29" selection-start="375" selection-end="375" vertical-scroll-proportion="-11.666667" />
+        <state line="34" column="17" selection-start="1078" selection-end="1078" vertical-scroll-proportion="-2.9166667">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application_zh.html">
+    <entry file="file://$PROJECT_DIR$/application.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="29" selection-start="345" selection-end="345" vertical-scroll-proportion="-11.666667" />
+        <state line="37" column="69" selection-start="1163" selection-end="1163" vertical-scroll-proportion="-8.75">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/conact_zh.html">
+    <entry file="file://$PROJECT_DIR$/conact.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="29" selection-start="340" selection-end="340" vertical-scroll-proportion="-8.75" />
+        <state line="37" column="69" selection-start="1158" selection-end="1158" vertical-scroll-proportion="-8.75">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/products_zh.html">
+    <entry file="file://$PROJECT_DIR$/products.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="29" selection-start="666" selection-end="666" vertical-scroll-proportion="-3.8888888" />
+        <state line="38" column="69" selection-start="1230" selection-end="1230" vertical-scroll-proportion="-8.75">
+          <folding>
+            <element signature="n#style#0;n#a#0;n#li#1;n#ul#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="tag#div#3;tag#div#1;tag#div#1;tag#div#1;tag#body#0;tag#html#0" expanded="false" />
+            <element signature="n#style#0;n#a#0;n#p#0;n#div#5;n#div#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#p#2;n#div#5;n#div#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/support_zh.html">
+    <entry file="file://$PROJECT_DIR$/support.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="58" column="25" selection-start="1617" selection-end="1617" vertical-scroll-proportion="61.444443" />
+        <state line="52" column="68" selection-start="1508" selection-end="1508" vertical-scroll-proportion="-5.8333335">
+          <folding>
+            <element signature="n#style#0;n#a#0;n#p#0;n#div#5;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#p#2;n#div#5;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index_zh.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="51" column="22" selection-start="1699" selection-end="1699" vertical-scroll-proportion="0.064935066">
+        <state line="38" column="12" selection-start="1161" selection-end="1212" vertical-scroll-proportion="-4.861111">
           <folding>
+            <element signature="tag#div#2;tag#body#0;tag#html#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/about_zh.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="63" selection-start="1182" selection-end="1182" vertical-scroll-proportion="-10.694445">
+          <folding>
+            <element signature="n#style#0;n#a#0;n#p#0;n#div#2;n#div#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#p#0;n#div#3;n#div#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="tag#div#2;tag#body#0;tag#html#0" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application_zh.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="63" selection-start="1152" selection-end="1152" vertical-scroll-proportion="-10.694445">
+          <folding>
+            <element signature="tag#div#2;tag#body#0;tag#html#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conact_zh.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="63" selection-start="1315" selection-end="1315" vertical-scroll-proportion="-7.7777777">
+          <folding>
+            <element signature="tag#div#2;tag#body#0;tag#html#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/products_zh.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="49" column="63" selection-start="1473" selection-end="1473" vertical-scroll-proportion="-7.7777777">
+          <folding>
+            <element signature="n#style#0;n#img#2;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#ul#0;n#div#3;n#div#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#p#0;n#div#5;n#div#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#p#2;n#div#5;n#div#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="tag#div#2;tag#body#0;tag#html#0" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/support_zh.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="52" column="63" selection-start="1498" selection-end="1498" vertical-scroll-proportion="0.52895755">
+          <folding>
+            <element signature="n#style#0;n#a#0;n#li#1;n#ul#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#p#0;n#div#5;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#p#2;n#div#5;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#6;n#p#1;n#div#0;n#div#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="tag#div#2;tag#body#0;tag#html#0" expanded="false" />
           </folding>
         </state>
