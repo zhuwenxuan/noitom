@@ -23,7 +23,7 @@
       <file leaf-file-name="index_zh.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index_zh.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="51" column="22" selection-start="1699" selection-end="1699" vertical-scroll-proportion="0.38961038">
+            <state line="51" column="22" selection-start="1699" selection-end="1699" vertical-scroll-proportion="0.064935066">
               <folding>
                 <element signature="tag#div#2;tag#body#0;tag#html#0" expanded="false" />
               </folding>
@@ -161,14 +161,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-4" y="-4" width="1288" height="746" extended-state="6" />
+    <frame x="-4" y="-4" width="1288" height="746" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16045381" sideWeight="0.6710098" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16288492" sideWeight="0.6710098" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32899022" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -253,53 +253,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/common.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="28" selection-start="408" selection-end="408" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="12" column="28" selection-start="408" selection-end="408" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/about.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="0" selection-start="1205" selection-end="1205" vertical-scroll-proportion="-12.055555">
-          <folding />
-        </state>
+        <state line="38" column="0" selection-start="1205" selection-end="1205" vertical-scroll-proportion="-12.055555" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="0" selection-start="1175" selection-end="1175" vertical-scroll-proportion="-12.444445">
-          <folding />
-        </state>
+        <state line="38" column="0" selection-start="1175" selection-end="1175" vertical-scroll-proportion="-12.444445" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/conact.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="0" selection-start="1170" selection-end="1170" vertical-scroll-proportion="-12.444445">
-          <folding />
-        </state>
+        <state line="38" column="0" selection-start="1170" selection-end="1170" vertical-scroll-proportion="-12.444445" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/products.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="0" selection-start="1242" selection-end="1242" vertical-scroll-proportion="-10.694445">
-          <folding>
-            <element signature="n#style#0;n#a#0;n#li#1;n#ul#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="tag#div#3;tag#div#1;tag#div#1;tag#div#1;tag#body#0;tag#html#0" expanded="false" />
-            <element signature="n#style#0;n#a#0;n#p#0;n#div#5;n#div#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#p#2;n#div#5;n#div#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
+        <state line="39" column="0" selection-start="1242" selection-end="1242" vertical-scroll-proportion="-10.694445" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/support.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="8" selection-start="1529" selection-end="1529" vertical-scroll-proportion="-9.722222">
-          <folding>
-            <element signature="n#style#0;n#a#0;n#p#0;n#div#5;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#p#2;n#div#5;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
+        <state line="53" column="8" selection-start="1529" selection-end="1529" vertical-scroll-proportion="-9.722222" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
@@ -314,64 +293,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/about_zh.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="29" selection-start="375" selection-end="375" vertical-scroll-proportion="-11.666667">
-          <folding>
-            <element signature="n#style#0;n#a#0;n#p#0;n#div#2;n#div#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#p#0;n#div#3;n#div#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="tag#div#2;tag#body#0;tag#html#0" expanded="false" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
+        <state line="12" column="29" selection-start="375" selection-end="375" vertical-scroll-proportion="-11.666667" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application_zh.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="29" selection-start="345" selection-end="345" vertical-scroll-proportion="-11.666667">
-          <folding>
-            <element signature="tag#div#2;tag#body#0;tag#html#0" expanded="false" />
-          </folding>
-        </state>
+        <state line="12" column="29" selection-start="345" selection-end="345" vertical-scroll-proportion="-11.666667" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/conact_zh.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="29" selection-start="340" selection-end="340" vertical-scroll-proportion="-8.75">
-          <folding>
-            <element signature="tag#div#2;tag#body#0;tag#html#0" expanded="false" />
-          </folding>
-        </state>
+        <state line="12" column="29" selection-start="340" selection-end="340" vertical-scroll-proportion="-8.75" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/products_zh.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="29" selection-start="666" selection-end="666" vertical-scroll-proportion="-3.8888888">
-          <folding>
-            <element signature="n#style#0;n#img#2;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#ul#0;n#div#3;n#div#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#p#0;n#div#5;n#div#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#p#2;n#div#5;n#div#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="tag#div#2;tag#body#0;tag#html#0" expanded="false" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
+        <state line="24" column="29" selection-start="666" selection-end="666" vertical-scroll-proportion="-3.8888888" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/support_zh.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="58" column="25" selection-start="1617" selection-end="1617" vertical-scroll-proportion="61.444443">
-          <folding>
-            <element signature="n#style#0;n#a#0;n#li#1;n#ul#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#p#0;n#div#5;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#p#2;n#div#5;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#6;n#p#1;n#div#0;n#div#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="tag#div#2;tag#body#0;tag#html#0" expanded="false" />
-          </folding>
-        </state>
+        <state line="58" column="25" selection-start="1617" selection-end="1617" vertical-scroll-proportion="61.444443" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index_zh.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="51" column="22" selection-start="1699" selection-end="1699" vertical-scroll-proportion="0.38961038">
+        <state line="51" column="22" selection-start="1699" selection-end="1699" vertical-scroll-proportion="0.064935066">
           <folding>
             <element signature="tag#div#2;tag#body#0;tag#html#0" expanded="false" />
           </folding>
